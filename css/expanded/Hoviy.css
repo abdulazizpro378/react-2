@@ -1,0 +1,29 @@
+.noviy-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.noviy-top h2 {
+  color: #2c2d2e;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+#noviy {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+  .noviy-body {
+    flex-direction: column;
+  }
+  .card-8 img {
+    max-width: 300px;
+  }
+}

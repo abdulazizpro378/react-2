@@ -1,0 +1,78 @@
+#home {
+  background-image: url("../../assets/images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+}
+#home .slick-prev,
+#home .slick-next {
+  display: none !important;
+}
+#home .slick-dots {
+  display: flex !important;
+  align-items: flex-end;
+  bottom: 30px !important;
+}
+#home .slick-dots .activ {
+  color: red !important;
+}
+#home .slick-dots li button {
+  background-color: #ef7c00 !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: red;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.home-card {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+}
+
+.desc {
+  color: #2c2d2e;
+  font-size: 13px;
+  padding-top: 162px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.card-left {
+  padding-bottom: 154px;
+}
+
+.card-left h1 {
+  color: #2c2d2e;
+  padding: 16px 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.deck_2 {
+  color: #2c2d2e;
+  padding-bottom: 16px;
+  font-size: 15px;
+  max-width: 582px;
+  line-height: 20px;
+}
+
+.home-btn {
+  border-radius: 4px;
+  background: #ef7c00;
+  color: var(--text-color-text-contrast, #fff);
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.home-btn:hover {
+  transform: scale(1.02);
+}
